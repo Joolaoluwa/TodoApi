@@ -10,7 +10,8 @@ app.use(cors());
 
 app.use("/api/v1/", router);
 
-let port = process.env.PORT || 8081;
+let port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log("Now listening on port " + port);
+  console.log("Now live at ");
+  console.log("Access the live documentation at");
 });
